@@ -33,7 +33,7 @@ header h1 {
 }
 
 #grid {
-    width: 1200px;
+    width: 1184px;
     margin: 2% auto;
     clear: both;
     overflow: hidden;
@@ -82,18 +82,40 @@ footer h3, h4 {
 
 @media (max-width: 1300px) {
     #grid {
-        width: 890px;
+        width: 888px;
     }
 }
 
 @media (max-width: 1000px) {
     #grid {
-        width: 600px;
+        width: 772px;
+    }
+    
+    img {
+        height: 350px;
+        width: 350px;
+    }
+    
+    .image {
+        width: 350px;
+        height: 390px;
+
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
     #grid {
-        width: 290px;
+        width: 386px;
+    }
+    
+    img {
+        height: 350px;
+        width: 350px;
+    }
+    
+    .image {
+        width: 350px;
+        height: 390px;
+
     }
 }
