@@ -8,6 +8,7 @@ body {
     min-height: 100%;
     width: 100%;
     margin: auto;
+    background-color: #6B5F92;
 }
 
 #wrap {
@@ -20,7 +21,8 @@ body {
 }
 
 header {
-    background-color: #4C668C;
+    background-color: #13073A;
+    color: white;
     margin: 0;
     height: 100px;
 }
@@ -43,6 +45,8 @@ img {
     width: 260px;
     height: 260px;
     margin: auto;
+    border: 1px solid #142E54;
+    border-radius: 1300px%;
 }
 
 .image {
@@ -53,6 +57,9 @@ img {
     position: relative;
     padding: 10px;
     border: 3px solid #142E54;
+    border-radius: 2%;
+    background-color: #A09CAE;
+    color: #142E54;
 }
 
 .image p {
@@ -69,11 +76,10 @@ footer {
     bottom: 0;
     height: 50px;
     width: 100%;
-    background-color: white;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
-    background-color: #4C668C;
+    background-color: #13073A;
 }
 
 footer h3, h4 {
